@@ -59,7 +59,7 @@ MASITDKDHQKVILVGDGAVGSSYAYAMVLQGIAQEIGIVDIFKDKTKGDAIDLSNALPFTSPKKIYSAEYSDAKDADLV
 
 ### Proteome
 
-Download a UniProt proteome XML file (e.g. [_Lactobacillus paracasei_ chromosome + pLSEI1 plasmid](https://www.uniprot.org/proteomes/UP000006381))
+Download a UniProt proteome XML file (e.g. [_Lactobacillus acidophilus_](https://www.uniprot.org/proteomes/UP000006381))
 
 ```sh
 curl \
