@@ -25,17 +25,6 @@
           <xsl:value-of select="u:dbReference[@type='eggNOG' and u:property[@type='taxonomic scope' and @value='LUCA']]/@id" />
           <xsl:value-of select="$newline" />
 
-
-					<!-- <xsl:value-of select="$quote" /><xsl:value-of select="u:protein/*/u:fullName[1]" /><xsl:value-of select="$quote" />
-					<xsl:value-of select="$separator" />
-					<xsl:value-of select="$quote" /><xsl:value-of select="u:gene/u:name[@type='primary' or @type='ordered locus']" /><xsl:value-of select="$quote" />
-					<xsl:value-of select="$separator" />
-					<xsl:value-of select="$quote" /><xsl:value-of select="u:dbReference[@type='EC']/@id" /><xsl:value-of select="$quote" />
-					<xsl:value-of select="$separator" />
-					<xsl:value-of select="$quote" /><xsl:value-of select="u:dbReference[@type='eggNOG' and u:property[@type='taxonomic scope' and @value='LUCA']]/@id" /><xsl:value-of select="$quote" />
-					<xsl:value-of select="$separator" />
-          <xsl:value-of select="$newline" /> -->
-
           <!-- SEQUENCE -->
 					<xsl:value-of select="u:sequence[1]" />
 					<xsl:value-of select="$newline" />
